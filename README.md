@@ -28,9 +28,9 @@ http-triggered/function_app.py
 
 It provides an HTTP POST endpoint that generates simulated sensor readings and inserts them into the Azure SQL `SensorData` table.
 
-The number of readings can be supplied in the request, with a default of 20 and a maximum of 1000. :chatgpt-content-reference{index="0"}
+The number of readings can be supplied in the request, with a default of 20 and a maximum of 1000.
 
-An SQL trigger runs when the database changes and calculates minimum, maximum and average values for each sensor. :chatgpt-content-reference{index="1"}
+An SQL trigger runs when the database changes and calculates minimum, maximum and average values for each sensor.
 
 This implementation was also used for scalability testing.
 
@@ -42,7 +42,7 @@ The timer-triggered version is located in:
 timer-triggered/function_app.py
 ```
 
-It automatically generates and inserts **20 sensor readings every 10 seconds**. :chatgpt-content-reference{index="2"}
+It automatically generates and inserts **20 sensor readings every 10 seconds**.
 
 When new data is inserted, an SQL trigger calculates statistics for each sensor.
 
