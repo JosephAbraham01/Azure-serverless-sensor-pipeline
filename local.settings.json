@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "SqlConnectionString": "Server=tcp:josephserver.database.windows.net,1433;Initial Catalog=coursework2db;User ID=joe123;Password=Abr70Sus72;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}
