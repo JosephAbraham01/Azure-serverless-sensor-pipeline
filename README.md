@@ -18,6 +18,12 @@ Two implementations are included:
 - HTTP-triggered implementation
 - Timer-triggered implementation
 
+## Demo
+
+A short demonstration of the serverless sensor data pipeline:
+
+[Watch the project demo](demo/Azure%20demo%20video.mp4)
+
 ## HTTP-Triggered Implementation
 
 The HTTP-triggered version is located in:
